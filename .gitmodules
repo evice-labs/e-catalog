@@ -16,3 +16,11 @@
 ; After cloning a fork, materialise the submodule working trees with:
 ;
 ;   git submodule update --init --recursive
+[submodule "submodules/e-wallet-core"]
+	path = submodules/e-wallet-core
+	url = https://github.com/evice-labs/e-wallet-core.git
+	branch = main
+[submodule "submodules/e-wallet-ui"]
+	path = submodules/e-wallet-ui
+	url = https://github.com/evice-labs/e-wallet.git
+	branch = main
