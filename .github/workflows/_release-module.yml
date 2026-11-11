@@ -67,8 +67,8 @@ jobs:
       # be spelled out rather than left to the action's default. A module
       # whose flake does not expose `packages.x86_64-windows` fails only
       # that leg; the other three still publish as a partial release.
-      # Publish for macOS Apple Silicon and Linux x86_64 (as supported by e-wallet-core precompiled C-ABI libs)
-      variants: "darwin-arm64,linux-amd64"
+      # Publish for macOS Apple Silicon, Linux x86_64, and Windows x86_64
+      variants: "darwin-arm64,linux-amd64,windows-x86_64"
 
       # ─── Runners and Nix cache (set by variables, not edited here) ───
       # Unset, every job runs GitHub-hosted and only reads the Logos cache.
