@@ -24,3 +24,6 @@
 	path = submodules/e-wallet-ui
 	url = https://github.com/evice-labs/e-wallet.git
 	branch = main
+[submodule "submodules/e-governance"]
+	path = submodules/e-governance
+	url = https://github.com/evice-labs/e-governance
